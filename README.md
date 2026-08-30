@@ -32,7 +32,7 @@
 - **Frontend:** React.js (Vite), Tailwind CSS
 - **Icons:** Lucide React
 - **Backend & Database:** Firebase Realtime Database & Firebase Authentication
-- **Deployment:** Vercel / Netlify
+- **Deployment:** Vercel
 
 ---
 
@@ -42,5 +42,5 @@ To run this project locally on your machine, follow these simple steps:
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/your-username/mahinda-command-center.git](https://github.com/your-username/mahinda-command-center.git)
+git clone [https://github.com/flashravionline/mahinda-command-center]
 cd mahinda-command-center
