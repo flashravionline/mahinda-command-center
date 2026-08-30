@@ -3,16 +3,16 @@ import { getDatabase } from "firebase/database";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  databaseURL: import.meta.env.VITE_FIREBASE_DATABASE_URL,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID
+  apiKey: "AIzaSyCqWGz1gHONq7tYtHM3-fIjatfXEEl_9VM",
+  authDomain: "mahinda-656f3.firebaseapp.com",
+  databaseURL: "https://mahinda-656f3-default-rtdb.asia-southeast1.firebasedatabase.app/",
+  projectId: "mahinda-656f3",
+  storageBucket: "mahinda-656f3.firebasestorage.app",
+  messagingSenderId: "335147758476",
+  appId: "1:335147758476:web:4a35d93db30aa863a15ca9"
 };
 
 const app = initializeApp(firebaseConfig);
 
 export const db = getDatabase(app);
-export const auth = getAuth(app); 
+export const auth = getAuth(app);
